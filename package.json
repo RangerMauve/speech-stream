@@ -1,0 +1,33 @@
+{
+  "name": "speech-stream",
+  "version": "1.0.0",
+  "description": "Text-to-speech using streams. Stream configuration data, text. Output audio buffers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/speech-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "speech",
+    "voice",
+    "tts"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/speech-stream/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/speech-stream",
+  "dependencies": {
+    "mespeak": "git://github.com/rangermauve/mespeak",
+    "randomvoice": "0.0.0"
+  },
+  "devDependencies": {
+    "make-prop-stream": "^1.0.0",
+    "stream-array": "^1.0.1"
+  }
+}
